@@ -19,3 +19,4 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('narcissisticNumber','MathsController@narcissisticNumber');
+Route::get('nums','MathsController@nums');

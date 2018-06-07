@@ -7,11 +7,16 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
 
+## 
+1.组合排序算法
+2.水仙花数
+3.电话号码分身
+
+
 ## About the product
 Chinese:将一些实用性算法转化成代码。
 English:maths Arithmetic
 
-
 ## License
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+The product licensed under the [MIT license](https://opensource.org/licenses/MIT).
