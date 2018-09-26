@@ -1,7 +1,7 @@
 <?php
 
 	/**
-     * ÅÅÐò×éºÏËã·¨.
+     * Ã…Ã…ÃÃ²Ã—Ã©ÂºÃÃ‹Ã£Â·Â¨.
      *
      * @param  array $arr
      * @param  int   $m
@@ -17,7 +17,7 @@
         unset($tmpArr[0]);
         for($i = 0; $i < count($arr); $i++) {
             $s = $arr[$i];
-            $ret = $this->getCombinationToString(array_values($tmpArr), ($m - 1), $result);
+            $ret = $this->getCombinationToString(array_values($tmpArr), ($m - 1));
             foreach($ret as $row) {
                 $val = $s . ',' . $row;
                 $val = explode(',', $val);
